@@ -112,3 +112,8 @@ def _get_jwt(user_data):
 
 if __name__ == '__main__':
     APP.run(host='127.0.0.1', port=8080, debug=True)
+
+# Create an EKS cluster
+# Set a secret using AWS parameter store
+# Create a pipeline watching for commits to your Github repository
+# Build and deploy your image using CodeBuild
